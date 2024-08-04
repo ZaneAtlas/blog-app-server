@@ -1,0 +1,17 @@
+# eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWY1OWNhODQ1YjUwZjQ0OWVjMWY5ZCIsImlhdCI6MTcyMjc2NzgxOH0._jxX3U1e7PUzECw_AyG54uAKg3dWVI1TgLsqn-hfslU
+
+# POST http://localhost:3000/create-blog
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWY1OWNhODQ1YjUwZjQ0OWVjMWY5ZCIsImlhdCI6MTcyMjc2NzgxOH0._jxX3U1e7PUzECw_AyG54uAKg3dWVI1TgLsqn-hfslU
+
+# {
+#     "title": "Sample Title",
+#     "banner": "https://example.com/image",
+#     "desc": "Short Description",
+#     "content": {
+#         "blocks": [1, 2]
+#     },
+#     "tags": [  "tag1", "tag2" ]
+
+# }
+GET http://localhost:3000/seed
